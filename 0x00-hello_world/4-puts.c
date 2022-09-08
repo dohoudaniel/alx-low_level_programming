@@ -1,12 +1,11 @@
 /**
+ * main -entry point
  *
- *  * main -entry point
  *
- *   *
  *
- *    * Return: 0 after printing the function
+ * Return: 0 after printing the function
  *
- *     */
+ */
 
 #include <stdio.h>
 
