@@ -5,7 +5,6 @@
  * Return: always return 0
  *
  * function main - Lists alphabets a to z
- *
  */
 int main(void)
 {
