@@ -4,9 +4,7 @@
  *
  * Return: always return 0
  *
- * 
- *
- * function main - lists alphabets a to z
+ * function main: lists alphabets a to z
  */
 int main(void)
 {
