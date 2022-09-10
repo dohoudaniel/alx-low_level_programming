@@ -2,16 +2,18 @@
 /**
  * main - entry point
  *
- * function main - print numbers 0 to 9
+ * function name - prints the alphabets in reverse
  *
  * Return: 0
  */
 int main(void)
 {
-	int f = 0;
+	char d;
 
-	for (; f < 10 ; f++)
-		putchar('0' + f);
+	for (d = 'z'; d >= 'a'; d--)
+	{
+		putchar(d);
+	}
 	putchar('\n');
 	return (0);
 }
