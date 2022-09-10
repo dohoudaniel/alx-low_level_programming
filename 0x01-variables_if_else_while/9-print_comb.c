@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * function main - a program that prints all 
+ * function main - a program that prints all
  *
  * Return: 0
  */
