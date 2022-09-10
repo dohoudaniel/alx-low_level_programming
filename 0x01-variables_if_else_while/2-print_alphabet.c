@@ -3,11 +3,12 @@
  * main - Entry point
  *
  * Return: always return 0
+ *
  */
+int main(void) 
 /**
  * function_main - lists alphabets a to z
  */
-int main(void)
 {
 	char a;
 
