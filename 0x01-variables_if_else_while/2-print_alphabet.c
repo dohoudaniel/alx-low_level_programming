@@ -2,13 +2,11 @@
 /*
  * main - Entry point
  *
- * Return: always return 0
+ * Return: always return 0 
  *
+ * function main - list alphabets a to z
  */
-int main(void) 
-/**
- * function_main - lists alphabets a to z
- */
+int main(void)
 {
 	char a;
 
