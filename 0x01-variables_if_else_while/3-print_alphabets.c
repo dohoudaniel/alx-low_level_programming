@@ -14,6 +14,10 @@ int main(void)
 	{
 		putchar(dn);
 	}
+	for (dn = 'A' ; dn = 'Z' ; dn++)
+	{
+		putchar(dn);
+	}
 	putchar('\n');
 	return (0);
 }

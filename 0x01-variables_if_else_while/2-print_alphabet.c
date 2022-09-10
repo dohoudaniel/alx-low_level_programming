@@ -3,8 +3,9 @@
  * main - Entry point
  *
  * Return: always return 0
- *
- * function main: lists alphabets a to z
+ */
+/**
+ * function_main - lists alphabets a to z
  */
 int main(void)
 {
