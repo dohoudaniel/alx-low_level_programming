@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * function main - a program that prints all possible combinations of single digit numbers
+ * function main - a program that prints all 
  *
  * Return: 0
  */
