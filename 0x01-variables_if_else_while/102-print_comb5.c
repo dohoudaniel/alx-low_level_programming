@@ -21,7 +21,7 @@ int main(void)
 		       putchar((e / 10) + '0');
 		       putchar((e % 10) + '0');
 
-		       if (d == 98 && e ==98)
+		       if (d == 98 && e == 98)
 			       continue;
 
 		       putchar(',');
