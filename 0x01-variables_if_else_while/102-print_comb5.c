@@ -22,7 +22,7 @@ int main(void)
 		       putchar((e % 10) + '0');
 
 		       if (d == 98 && e == 99)
-			       continue;
+		       continue;
 
 		       putchar(',');
 		       putchar(' ');
