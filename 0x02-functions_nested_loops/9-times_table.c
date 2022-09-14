@@ -1,7 +1,8 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
- * times_table - Prints the 9 times table, starting with 0
+ * main - Entry point
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -9,28 +10,28 @@ int main(void)
 
 	for (x = 0; x <= 9; x++)
 	{
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
+		putchar('0');
+		putchar(',');
+		putchar(' ');
 		for (y = 0; y <= 9; y++)
 		{
 			z = (x * y);
 			if ((z / 10) > 0)
 			{
-				_putchar((z / 10) + '0');
+				putchar((z / 10) + '0');
 			}
 			else
 			{
-				_putchar(' ');
+				putchar(' ');
 			}
-			_putchar((z % 10) + '0');
+			putchar((z % 10) + '0');
 			if (y < 9)
 			{
-				_putchar(',');
-				_putchar(' ');
+				putchar(',');
+				putchar(' ');
 			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 
 	return (0);
