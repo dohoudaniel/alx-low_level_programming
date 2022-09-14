@@ -3,26 +3,35 @@
 /**
  * times_table - Prints the 9 times table, starting with 0
  */
-void times_table(void)
+int main(void)
 {
-	int num, mult, prod;
+	int x, y, z;
 
-	for (num = 0; num <= 9; num++)
+	for (x = 0; x <= 9; x++)
 	{
-		_putchar('0');
-
-		for (mult = 1; mult <= 9; mult++)
+		putchar('0');
+		putchar(',');
+		putchar(' ');
+		for (y = 0; y <= 9; y++)
 		{
-			_putchar(',');
-			_putchar(' ');
-
-			prod = num * mult;
-
-			if (prod <= 9)
-				_putchar(' ');
+			z = (x * y);
+			if ((z / 10) > 0)
+			{
+				putchar((z / 10) + '0');
+			}
 			else
-				_putchar((prod / 10) + '0');
+			{
+				putchar(' ');
+			}
+			putchar((z % 10) + '0');
+			if (y < 9)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
+
+	return (0);
 }
