@@ -9,28 +9,28 @@ int main(void)
 
 	for (x = 0; x <= 9; x++)
 	{
-		putchar('0');
-		putchar(',');
-		putchar(' ');
+		_putchar('0');
+		_putchar(',');
+		_putchar(' ');
 		for (y = 0; y <= 9; y++)
 		{
 			z = (x * y);
 			if ((z / 10) > 0)
 			{
-				putchar((z / 10) + '0');
+				_putchar((z / 10) + '0');
 			}
 			else
 			{
-				putchar(' ');
+				_putchar(' ');
 			}
-			putchar((z % 10) + '0');
+			_putchar((z % 10) + '0');
 			if (y < 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 
 	return (0);
