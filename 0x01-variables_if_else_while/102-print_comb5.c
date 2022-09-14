@@ -1,31 +1,42 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- *
- * main - two digits
- *
- * Return: 0
- */
+  * main - Prints 3 combination of numbers
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-	int d;
-	int e;
+	int c, i, k, j;
 
-	for (d = 0; d <= 98; d++)
+	for (c = 48; c <= 57; c++)
 	{
-		for (e = d + 1; e <= 99; e++)
+		for (i = 48; i <= 57; i++)
 		{
-		       putchar((d / 10) + '0');
-		       putchar((d % 10) + '0');
-		       putchar(' ');
-		       putchar((e / 10) + '0');
-		       putchar((e % 10) + '0');
+			for (k = 48; k <= 57; k++)
+			{
+				for (j = 48; j <= 57; j++)
+				{
+					if (((k + j) > (c + i) &&  k >= c) || c < k)
+					{
+						putchar(c);
+						putchar(i);
+						putchar(' ');
+						putchar(k);
+						putchar(j);
 
-		if (d == 98 && e == 99)
-		continue;
-
-		       putchar(',');
-		       putchar(' ');
+					if (c + i + k + j == 227 && c == 57)
+					{
+					break;
+					}
+					else
+					{
+					putchar(',');
+					putchar(' ');
+					}
+					}
+				}
+			}
 		}
 	}
 
@@ -33,3 +44,4 @@ int main(void)
 
 	return (0);
 }
+
