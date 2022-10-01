@@ -2,6 +2,7 @@
 
 /*
  * main - Entry point
+ *
  * @argc: Prints the number of arguments used
  * @argv: An array of pointers to the arguments used
  *
