@@ -2,8 +2,8 @@
 
 /*
  * main - Prints the program name, followed by a new line
- * @argc - Prints the number of arguments used
- * @argv - An array of pointers to the arguments used
+ * @argc: Prints the number of arguments used
+ * @argv: An array of pointers to the arguments used
  *
  * Return: always 0
  */
