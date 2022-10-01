@@ -10,16 +10,15 @@
  */
 int main(int argc __attribute__((__unused__)), char *argv[])
 {
-    int i;
+	int i;
 
-    if(argc > 0)
-    {
-        for(i = 0; i < argc; i++)
-        {
-            printf("%s\n", argv[i]);
-        }
-        
-    }
+	if (argc > 0)
+	{
+		for (i = 0; i < argc; i++)
+		{
+			printf("%s\n", argv[i]);
+		}
+	}
 
 	return (0);
 }
