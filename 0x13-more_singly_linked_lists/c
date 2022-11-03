@@ -1,0 +1,81 @@
+
+========== 0-main.c ==========
+main
+
+========== 0-print_listint.c ==========
+print_listint
+
+========== 1-listint_len.c ==========
+listint_len
+
+========== 1-main.c ==========
+main
+
+========== 10-main.c ==========
+10-main.c:53: WARNING: More than 40 lines in a function
+10-main.c:54: WARNING: More than 40 lines in a function
+10-main.c:55: WARNING: More than 40 lines in a function
+10-main.c:56: WARNING: More than 40 lines in a function
+10-main.c:57: WARNING: More than 40 lines in a function
+10-main.c:58: WARNING: More than 40 lines in a function
+10-main.c:59: WARNING: More than 40 lines in a function
+10-main.c:60: WARNING: More than 40 lines in a function
+10-main.c:61: WARNING: More than 40 lines in a function
+10-main.c:62: WARNING: More than 40 lines in a function
+10-main.c:63: WARNING: More than 40 lines in a function
+10-main.c:64: WARNING: More than 40 lines in a function
+10-main.c:65: WARNING: More than 40 lines in a function
+10-main.c:66: WARNING: More than 40 lines in a function
+10-main.c:67: WARNING: More than 40 lines in a function
+total: 0 errors, 15 warnings, 68 lines checked
+main
+
+========== 100-main.c ==========
+main
+
+========== 101-main.c ==========
+main
+
+========== 102-main.c ==========
+main
+
+========== 103-main.c ==========
+main
+
+========== 2-add_nodeint.c ==========
+
+========== 2-main.c ==========
+main
+
+========== 3-main.c ==========
+main
+
+========== 4-main.c ==========
+main
+
+========== 5-main.c ==========
+main
+
+========== 6-main.c ==========
+main
+
+========== 7-main.c ==========
+main
+
+========== 8-main.c ==========
+main
+
+========== 9-main.c ==========
+main
+
+========== README.md ==========
+
+========== _putchar.c ==========
+_putchar
+
+========== a ==========
+a:0: ERROR: Does not appear to be a unified-diff format patch
+total: 1 errors, 0 warnings, 0 lines checked
+
+========== lists.h ==========
+struct listint_s
