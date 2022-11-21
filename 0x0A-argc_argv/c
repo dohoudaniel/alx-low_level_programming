@@ -1,0 +1,12 @@
+
+========== 0-whatsmyname_0.exe ==========
+0-whatsmyname_0.exe:0: ERROR: Does not appear to be a unified-diff format patch
+total: 1 errors, 0 warnings, 0 lines checked
+
+========== 0-whatsmyname.c ==========
+
+========== mynameis.exe ==========
+mynameis.exe:0: ERROR: Does not appear to be a unified-diff format patch
+total: 1 errors, 0 warnings, 0 lines checked
+
+========== README.md ==========
