@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point.
  *
- * function main - print a to z without q and e
+ * function main - Prints A to Z without Q and E
  *
- * Return: 0
+ * Return: Always 0.
  */
 int main(void)
 {

@@ -2,7 +2,9 @@
 /**
  * main - entry point
  *
- * function main - a program that prints
+ * function main - a program that prints all
+ * possible different combinations of two
+ * digit numbers
  *
  * Return: 0
  */

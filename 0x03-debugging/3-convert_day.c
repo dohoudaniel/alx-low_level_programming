@@ -5,7 +5,8 @@
 * for leap year
 * @month: month in number format
 * @day: day of month
-* Return: day of year
+* Return: The day of year
+*
 */
 
 int convert_day(int month, int day)

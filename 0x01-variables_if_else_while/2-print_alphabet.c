@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: always return 0
+ * Return: Always 0.
  *
  * function main - list alphabets a to z
  */

@@ -3,9 +3,9 @@
 /**
  * _abs - main function
  *
- * @n: integer to make absolute
+ * @n: An Integer to make absolute
  *
- * Return: int or int times negative
+ * Return: int or int times negative.
  *
  */
 

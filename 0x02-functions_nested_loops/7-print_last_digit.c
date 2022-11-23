@@ -3,9 +3,9 @@
 /**
  * print_last_digit - print last digit of a num
  *
- * @n: integer to be used
+ * @n: The integer to be used
  *
- * Return: last digit of int
+ * Return: The last digit of int
  *
  */
 int print_last_digit(int n)

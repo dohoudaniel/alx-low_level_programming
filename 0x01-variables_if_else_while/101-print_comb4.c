@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * main - three digits
+ * main - Prints a combination of three digits
  *
  * Return: 0
  */

@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point.
  *
- * function name - prints the alphabets in reverse
+ * function name - Prints the alphabets in reverse.
  *
  * Return: 0
  */

@@ -1,10 +1,10 @@
 #include<stdio.h>
 /**
- * main - entry point
+ * main - Entry point.
  *
- * function main - prints numbers 0 to 9
+ * function main - Prints integers 0 to 9.
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {

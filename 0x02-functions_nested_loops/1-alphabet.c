@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet - fuction to print alphats
+ * print_alphabet - Function to print 
+ * alphabets
  *
- * Return: always returns 0
+ * Return: Always 0
  */
 void print_alphabet(void)
 {

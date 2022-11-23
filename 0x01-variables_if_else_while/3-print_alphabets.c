@@ -2,9 +2,9 @@
 /**
  * main - Entry point
  *
- * function main - prints alphabets alternatively
+ * function main - Prints the Alphabets alternatively
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
