@@ -1,4 +1,4 @@
-## Today, a new C developer, by the name Dohou Daniel, is born 👨‍💻😁🌹.
+## Today, a new C developer, by the name Dohou Daniel, is born 👨‍💻😁🌹💖.
 Learning C: The learning never stops.......................
 
 
