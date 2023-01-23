@@ -10,18 +10,18 @@
  */
 int main(void)
 {
-	int f;
-	int l;
+	int fm;
+	int bm;
 
-	for (f = 10; f <= 19; f++)
+	for (fm = 10; fm <= 19; fm++)
 	{
-		for (l = 10; l <= 19; l++)
+		for (bm = 10; bm <= 19; bm++)
 		{
-			if ((l % 10) > (f % 10))
+			if ((bm % 10) > (fm % 10))
 			{
-				putchar((f % 10) + '0');
-				putchar((l % 10) + '0');
-				if (f != 18 || l != 19)
+				putchar((fm % 10) + '0');
+				putchar((bm % 10) + '0');
+				if (fm != 18 || bm != 19)
 				{
 					putchar(',');
 					putchar(' ');

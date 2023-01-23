@@ -8,22 +8,22 @@
  */
 int main(void)
 {
-	int a;
-	int b;
-	int c;
+	int A;
+	int B;
+	int C;
 
-	for (a = 0; a <= 9; a++)
+	for (A = 0; A <= 9; A++)
 	{
-		for (b = 0; b <= 9; b++)
+		for (B = 0; B <= 9; B++)
 		{
-			for (c = 0; c <= 9; c++)
+			for (C = 0; C <= 9; C++)
 			{
-			if (c > b && b > a)
+			if (C > B && B > A)
 			{
-				putchar(a + '0');
-				putchar(b + '0');
-				putchar(c + '0');
-				if (a != 7 || b != 8 || c != 9)
+				putchar(A + '0');
+				putchar(B + '0');
+				putchar(C + '0');
+				if (A != 7 || B != 8 || C != 9)
 				{
 					putchar(',');
 					putchar(' ');
