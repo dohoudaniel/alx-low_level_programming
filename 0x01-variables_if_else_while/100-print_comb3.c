@@ -21,6 +21,7 @@ int main(void)
 			{
 				putchar((fm % 10) + '0');
 				putchar((bm % 10) + '0');
+
 				if (fm != 18 || bm != 19)
 				{
 					putchar(',');
