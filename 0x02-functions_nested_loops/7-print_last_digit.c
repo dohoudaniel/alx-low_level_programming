@@ -6,7 +6,6 @@
  * @n: The integer to be used
  *
  * Return: The last digit of int
- *
  */
 int print_last_digit(int b)
 {
