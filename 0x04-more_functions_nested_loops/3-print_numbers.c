@@ -4,7 +4,7 @@
  * print_numbers - print 0 - 9
  *             only using _putchar twice
  *
- * Return: Nothing.
+ * Return: Nothing
  */
 
 void print_numbers(void)
