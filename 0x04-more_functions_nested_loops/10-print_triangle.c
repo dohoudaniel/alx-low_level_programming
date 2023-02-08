@@ -5,7 +5,7 @@
  *
  * @size: size of the triangle
  *
- * Return: Always 0 (Success)
+ * Return: Nothing.
  */
 
 void print_triangle(int size)
