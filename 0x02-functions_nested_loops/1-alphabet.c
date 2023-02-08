@@ -4,7 +4,7 @@
  * print_alphabet - Function to print 
  * alphabets
  *
- * Return: Always 0
+ * Return: Nothing
  */
 void print_alphabet(void)
 {
