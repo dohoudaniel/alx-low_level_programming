@@ -4,7 +4,6 @@
  * jack_bauer - prints every minuite of the day
  *
  * Return: Always 0
- *
  */
 void jack_bauer(void)
 {
