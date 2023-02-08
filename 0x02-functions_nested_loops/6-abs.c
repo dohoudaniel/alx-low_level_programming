@@ -6,7 +6,6 @@
  * @n: An Integer to make absolute
  *
  * Return: int or int times negative.
- *
  */
 
 int _abs(int n)
