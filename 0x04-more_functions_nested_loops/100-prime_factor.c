@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
  * _sqrt - finds the square root
@@ -57,7 +57,7 @@ void largest_prime_factor(long int num)
 
 /**
  * main - Entry point
- *
+ * 
  * Return: Always 0 (Success)
 */
 int main(void)
