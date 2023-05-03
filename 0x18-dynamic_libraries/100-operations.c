@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+/* #include <stdlib.h> */
 #include <math.h>
 
 /**
@@ -9,7 +9,7 @@
  */
 int add(int a,int b)
 {
-	addition = a + b;
+	int addition = a + b;
 	return (addition);
 }
 
@@ -20,7 +20,7 @@ int add(int a,int b)
  */
 int sub(int a, int b)
 {
-	difference = a - b;
+	int difference = a - b;
 	return (difference);
 }
 
@@ -31,7 +31,7 @@ int sub(int a, int b)
  */
 int mul(int a, int b)
 {
-	product = (int) a * b; /* Typecasting */
+	int product = (int) a * b; /* Typecasting */
 	return (product);
 }
 
@@ -42,7 +42,7 @@ int mul(int a, int b)
  */
 int div(int a, int b)
 {
-	quotient = (int) a / b; /* Typecasting */
+	int quotient = (int) a / b; /* Typecasting */
 	return (quotient);
 }
 
@@ -53,6 +53,6 @@ int div(int a, int b)
  */
 int mod(int a, int b)
 {
-	modulo = (int) a % b;
+	int modulo = (int) a % b;
 	return (modulo);
 }
