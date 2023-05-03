@@ -1,6 +1,3 @@
-# This is a Bash Script that creates a C dynamic or shared library.
-# Simply compile to create a dynamic library.
-
 #!/bin/bash
 echo -e "\e[1;32m Compiling .c files into object files ... \e[0m"
 gcc -fPIC -c *.c
